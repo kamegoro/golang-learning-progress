@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"]
+}
