@@ -7,6 +7,7 @@ func f() (int, int) {
 }
 
 func main() {
+	// コロンイコールはvarを省略するため
 	i, _ := f()
 	fmt.Println(i)
 }
